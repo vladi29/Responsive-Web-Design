@@ -32,4 +32,5 @@ input{
     border-radius: 0.5rem;
     background-color: gainsboro;
     display: grid;
+    grid-column: auto;
 }
