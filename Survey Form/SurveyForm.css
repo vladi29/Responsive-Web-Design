@@ -31,4 +31,5 @@
 input{
     border-radius: 1rem;
     background-color: gainsboro;
+    align-items: center;
 }
