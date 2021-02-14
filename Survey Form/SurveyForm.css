@@ -32,5 +32,8 @@ input{
     border-radius: 0.5rem;
     background-color: gainsboro;
     display: grid;
-    grid-column: auto;
+}
+input::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
 }
