@@ -23,4 +23,6 @@
     text-align: left;
     color: darkslategray;
 }
-
+input{
+    border-radius: 10%;
+}
