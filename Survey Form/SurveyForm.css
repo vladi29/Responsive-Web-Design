@@ -1,40 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 #title{
-    font-size: 2rem;
+    font-family: ;
+    font-size: 4rem;
     text-align: center;
     color: coral;
 }
 #description{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     color: darksalmon;
 }
 #survey-fomr{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     color: darksalmon;
     display: flexbox;
 }
 #name{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
     color: darkslategray;
 }
 #email{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
     color: darkslategray;
 }
 #number{
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
     color: darkslategray;
 }
 input{
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
     background-color: gainsboro;
     display: grid;
 }
 input::placeholder{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: grey;
+}
+body{
+    background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_180662.jpg");
+    background-position: center;
+    background-size: auto;
 }
