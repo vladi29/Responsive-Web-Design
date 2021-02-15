@@ -4,72 +4,76 @@ By: Vlaidmir Alfaro
 Date: 15/02/2021
 -->
 
-<link rel="stylesheet" href="SurveyForm.css">
-<h1 id="title">
-    We want knowing you...
-</h1>
-<p id="description">
-    Tell us the most important things when you do exercise 
-</p>
-<form id="survey-form">
-    <div class="form-input">
-        <label id="name-label">Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name" required>
-    </div>
-    <div class="form-input">
-        <label id="email-label">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
-    </div>
-    <div class="form-input">
-        <label id="number-label">Age</label>
-        <input type="number" name="number" id="number" min="18" max="120" placeholder="Enter your Age">
-    </div>
-    <div class="form-input">
-        <p id="dropdown-label">What is your favorite drug</p>
-        <select name="dropdown" id="dropdown">
-            <option value="value1">Beer</option>
-            <option value="value2">Cigarretes</option>
-            <option value="value3">Marihuana</option>
-            <option value="value4">Booty</option>
-        </select>
-    </div>
-    <div class="form-input">
-        <p>Select the thing you most want</p>
-        <label id="radio-buttons-label">Money
-            <input type="radio" name="user-want" value="Money" checked>
-        </label>
-        <label id="radio-buttons-label">Partner
-            <input type="radio" name="user-want" value="Partner" checked>
-        </label>
-        <label id="radio-buttons-label">Drugs
-            <input type="radio" name="user-want" value="Drugs" checked>
-        </label>
-        <label id="radio-buttons-label">All above
-            <input type="radio" name="user-want" value="All-above" checked>
-        </label>
-    </div>
-    <div class="form-input">
-        <p>Select what of this you need to life</p>
-        <label id="checkboxes">
-            <input type="checkbox" value="Sex"> Water
-        </label>
-        <label id="checkboxes">
-            <input type="checkbox" value="Sex"> Food
-        </label>
-        <label id="checkboxes">
-            <input type="checkbox" value="Sex"> Sex
-        </label>
-        <label id="checkboxes">
-            <input type="checkbox" value="Sex"> Love
-        </label>
-    </div>
-    <div class="form-input">
-        <p>Any comments?</p>
-        <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
-    </div>
-    <div class="form-input">
-        <button type="submit" id="submit">
-            Submit
-        </button>
-    </div>
-</form>
+<main>
+    <body>
+        <link rel="stylesheet" href="SurveyForm.css">
+        <h1 id="title">
+            We want knowing you...
+        </h1>
+        <p id="description">
+            Tell us the most important things when you do exercise 
+        </p>
+        <form id="survey-form">
+            <div class="form-input">
+                <label id="name-label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-input">
+                <label id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-input">
+                <label id="number-label">Age</label>
+                <input type="number" name="number" id="number" min="18" max="120" placeholder="Enter your Age">
+            </div>
+            <div class="form-input">
+                <p id="dropdown-label">What is your favorite drug</p>
+                <select name="dropdown" id="dropdown">
+                    <option value="value1">Beer</option>
+                    <option value="value2">Cigarretes</option>
+                    <option value="value3">Marihuana</option>
+                    <option value="value4">Booty</option>
+                </select>
+            </div>
+            <div class="form-input">
+                <p>Select the thing you most want</p>
+                <label id="radio-buttons-label">Money
+                    <input type="radio" name="user-want" value="Money" checked>
+                </label>
+                <label id="radio-buttons-label">Partner
+                    <input type="radio" name="user-want" value="Partner" checked>
+                </label>
+                <label id="radio-buttons-label">Drugs
+                    <input type="radio" name="user-want" value="Drugs" checked>
+                </label>
+                <label id="radio-buttons-label">All above
+                    <input type="radio" name="user-want" value="All-above" checked>
+                </label>
+            </div>
+            <div class="form-input">
+                <p>Select what of this you need to life</p>
+                <label id="checkboxes">
+                    <input type="checkbox" value="Sex"> Water
+                </label>
+                <label id="checkboxes">
+                    <input type="checkbox" value="Sex"> Food
+                </label>
+                <label id="checkboxes">
+                    <input type="checkbox" value="Sex"> Sex
+                </label>
+                <label id="checkboxes">
+                    <input type="checkbox" value="Sex"> Love
+                </label>
+            </div>
+            <div class="form-input">
+                <p>Any comments?</p>
+                <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+            </div>
+            <div class="form-input">
+                <button type="submit" id="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </body>
+</main>
