@@ -4,12 +4,13 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
     text-align: center;
-    color: coral;
+    color: #84939C;
 }
 #description{
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     text-align: center;
-    color: darksalmon;
+    color: #84939C;
 }
 #survey-fomr{
     font-size: 2rem;
@@ -45,4 +46,21 @@ body{
     background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_180662.jpg");
     background-position: center;
     background-size: auto;
+}
+.container{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    display: flexbox;
+}
+.icon-container{
+    background-color: blue;
+    border-radius: 0.5rem;
+    border: 0.2rem solid black;
+}
+img{
+    background: transparent;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
